@@ -6,7 +6,7 @@
 
         while (n > 0)
         {
-            n /= 5;
+            n = n / 5;
             count += n;
         }
         return count;
